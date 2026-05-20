@@ -64,7 +64,9 @@ h2,
 h3,
 a,
 span {
-  overflow-wrap: break-word;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 a:focus-visible,
@@ -1055,7 +1057,9 @@ h3 {
   color: var(--white);
   line-height: 1.32;
   text-decoration: none;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .contact-methods a {
@@ -1555,7 +1559,36 @@ h3 {
 .action-card,
 .side-card,
 .contact-panel {
-  overflow-wrap: break-word;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
+/* Public text should wrap at spaces, not inside ordinary words. */
+body,
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button,
+summary,
+span,
+.button,
+.practice-card,
+.resource-card,
+.checklist-card,
+.action-card,
+.side-card,
+.contact-panel,
+.site-footer {
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
 }
 
 .action-label {
