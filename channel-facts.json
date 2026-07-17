@@ -1,0 +1,42 @@
+{
+  "channelId": "lehigh_valley_legal",
+  "brand": "Lehigh Valley Legal",
+  "domain": "lehighvalleylegal.com",
+  "canonicalOrigin": "https://lehighvalleylegal.com/",
+  "phoneDisplay": "(484) 548-0529",
+  "phoneE164": "+14845480529",
+  "formEndpoint": "/api/intake",
+  "office": {
+    "streetAddress": "680 Wolf Avenue",
+    "addressLocality": "Easton",
+    "addressRegion": "PA",
+    "postalCode": "18042",
+    "addressCountry": "US"
+  },
+  "officePositioning": "Easton is the only confirmed physical office. Allentown and Lehigh County are service areas.",
+  "primaryServiceAreas": [
+    "Allentown",
+    "Lehigh County",
+    "Lehigh Valley"
+  ],
+  "secondaryServiceAreas": [
+    "Easton",
+    "Northampton County"
+  ],
+  "primaryPractices": [
+    "Criminal defense",
+    "DUI and traffic",
+    "Custody",
+    "Protection from abuse",
+    "Firearms law"
+  ],
+  "analytics": {
+    "propertyId": null,
+    "searchConsoleProperty": "sc-domain:lehighvalleylegal.com",
+    "crmSource": "lehigh_valley_legal"
+  },
+  "indexing": {
+    "staging": "noindex, nofollow, noarchive, noimageindex",
+    "production": "index, follow"
+  }
+}
